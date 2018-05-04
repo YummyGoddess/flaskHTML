@@ -1,0 +1,48 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTTP Request Response</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="wrapper">
+      {%for x in range(0,x)%}
+      <div class="cell"></div>
+      {%endfor%}
+      <!-- <div class="cell"></div>
+      <div class="cell"></div> -->
+      <style>
+        .container {
+          /* display: inline-block */
+          padding-right: 200px
+        }
+
+        .wrapper {
+          align-content: center;
+          display: inline-block;
+          width: 350px;
+          height: 105px;
+          margin: 240px 0px 0px 200px;
+
+        }
+
+        .cell {
+          display: inline-block;
+          background-color: {{color}};
+          width: 100px;
+          height: 100px;
+          margin-left: 14px
+        }
+      </style>
+    </div>
+  </div>
+
+</body>
+
+</html>
